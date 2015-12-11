@@ -131,6 +131,24 @@ checks:
         basic_bad_reversed_sequence: true
         basic_assert_on_tuple: true
         basic_abstract_class_instantiated: true
+        variables_unused_wildcard_import: true
+        variables_unused_variable: true
+        variables_unused_import: true
+        variables_unused_argument: true
+        variables_global_variable_not_assigned: true
+        format_superfluous_parens: true
+        exceptions_pointless_except: true
+        exceptions_binary_op_exception: true
+        design_interface_not_implemented: true
+        classes_super_init_not_called: true
+        classes_arguments_differ: true
+        basic_useless_else_on_loop: true
+        basic_unreachable: true
+        basic_unnecessary_pass: true
+        basic_unnecessary_lambda: true
+        basic_pointless_string_statement: true
+        basic_pointless_statement: true
+        basic_expression_not_assigned: true
 
 filter:
     excluded_paths:
