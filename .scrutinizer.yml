@@ -1,5 +1,5 @@
 ---
-  
+
 checks:
   python:
     code_rating: true
@@ -155,6 +155,6 @@ filter:
     - '*/test/*'
 
 build:
-    environment:
-      python:
-        version: 2.7
+  environment:
+    python:
+      version: 2.7
