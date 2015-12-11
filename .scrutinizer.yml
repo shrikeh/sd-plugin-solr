@@ -153,8 +153,9 @@ checks:
 filter:
   excluded_paths:
     - '*/test/*'
-
 build:
   environment:
     python:
-      version: 2.7
+      version: 2.7.3
+tools:
+  external_code_coverage: true
