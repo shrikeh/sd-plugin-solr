@@ -149,7 +149,9 @@ checks:
         basic_pointless_string_statement: true
         basic_pointless_statement: true
         basic_expression_not_assigned: true
-
+tools:
+    pylint:
+        python_version: 2
 filter:
     excluded_paths:
         - '*/test/*'
