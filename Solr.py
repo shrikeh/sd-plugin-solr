@@ -11,4 +11,4 @@ class Solr(object):
         self.raw_config = raw_config
 
     def run(self):
-        return
+        return self
