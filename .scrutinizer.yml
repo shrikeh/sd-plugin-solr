@@ -155,4 +155,3 @@ filter:
     - '*/test/*'
 tools:
   external_code_coverage: false
-  timeout: 60
